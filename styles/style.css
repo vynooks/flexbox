@@ -1,5 +1,7 @@
 .container {
-    display: flex;
-    color: #7e2d2d;
+    display: flex; 
+    flex-direction: column;
+    height: 50px;
+    color: brown;
     background-color: darkolivegreen;
 }
