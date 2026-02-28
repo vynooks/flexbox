@@ -21,6 +21,6 @@
     height: 100%;
 }
 .style-three {
-    gap: 12px;
-    padding: 10px;
+    box-sizing: border-box; 
+    box-shadow: 2px solid black;
 }

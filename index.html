@@ -31,7 +31,7 @@
     <p>The first column is exactly double the width of the other two.<br> 
         The space between columns, and between the columns and the outer box, is 12px.<br>
         Each inner box has a 2px border.</p>
-    <div class="container style-two"> 
+    <div class="container style-two style-three"> 
         <div style="flex: 2"></div>
         <div style="flex: 1"></div>
         <div style="flex: 1"></div>
@@ -40,10 +40,15 @@
     <h2>Four equally sized columns and a footer</h2> <!--4 equal-->
     <p>The space between columns, and between the columns and the outer box, is 12px.<br>
         Each inner box has a 2px border.</p>
-    <div class="container style-two"> 
+    <div class="container style-two style="border-bottom: 6px;"> 
         <div style="flex: 1"></div>
         <div style="flex: 1"></div>
         <div style="flex: 1"></div>
         <div style="flex: 1"></div>
+    </div>
+    <footer class="container" style="border-top: 6px;">
+        <div style="flex: 1"></div>
+    </footer>
+
 </body>
 </html>
