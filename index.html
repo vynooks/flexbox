@@ -19,10 +19,21 @@
     </div>
  <!--second flexbox section-->
     <h2>Three equally sized columns</h2> <!--3 equal-->
-    <p>The space between the columns, and between the columns and the outer box, is 15px. </p>
-    <div class="container"> 
+        <p>The space between the columns, and between the columns and the outer box, is 15px. </p>
+        <div class="container" style="gap: 15px; padding: 15px;"> 
+            <div style="flex: 1"></div>
+            <div style="flex: 1"></div>
+            <div style="flex: 1"></div>
+        </div>
+<!--third flexbox section-->
+    <h2>Three unequal columns</h2> <!--3 unequal-->
+    <p>The first column is exactly double the width of the other two.<br> 
+        The space between columns, and between the columns and the outer box, is 12px.<br>
+        Each inner box has a 2px border.</p>
+    <div class="container" style="gap: 12px; padding: 12px;"> 
         <div style="flex: 1"></div>
         <div style="flex: 1"></div>
         <div style="flex: 1"></div>
+    </div>
 </body>
 </html>
