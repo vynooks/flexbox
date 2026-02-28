@@ -18,4 +18,9 @@
 .style-two {
     gap: 12px;
     padding: 12px;
+    height: 100%;
+}
+.style-three {
+    gap: 12px;
+    padding: 10px;
 }
