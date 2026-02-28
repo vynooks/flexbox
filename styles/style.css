@@ -3,11 +3,11 @@
     background-color: brown;
     height: 50px;
     width: auto;
-    flex: 1;
 }
 .container div {
     background-color: darkolivegreen;
     height: 50px;
     width: auto;
+    margin: 10px;
 
 }
